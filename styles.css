@@ -1,0 +1,35 @@
+body {
+    margin: 50px;
+}
+
+h1,
+h2,
+.top {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: rgb(2, 54, 54);
+}
+
+.links {
+    text-align: right;
+}
+
+
+.skills ul {
+    columns: 3;
+    /* Set the number of columns */
+    list-style-type: none;
+    /* Remove default list styles */
+    padding: 0;
+    /* Remove default padding */
+}
+
+.skills li {
+    margin-bottom: 10px;
+    margin-left: 25px;
+    /* Adjust spacing between list items */
+}
+
+.work {
+    text-align: justify;
+}
